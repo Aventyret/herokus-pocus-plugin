@@ -5,7 +5,7 @@ This repo contains some usefull Herokus plugin commands that we at Äventyret AB
 
 ## Installtion
 
-Make sure that you have installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) package.
+Make sure that you have installed the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) package and that you have logged. After that, install the Herokus Pocus plugin:
 
 
 ```
