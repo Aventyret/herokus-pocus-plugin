@@ -18,6 +18,9 @@
     "test": "jest && flow && eslint .",
     "release": "np"
   },
+  "publishConfig": {
+    "access": "public"
+  },
   "dependencies": {
     "cli-engine-command": "^5.1.7",
     "cli-engine-config": "^1.3.7",
