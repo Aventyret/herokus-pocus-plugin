@@ -17,7 +17,11 @@ As any Heroku plugin, you install them via the `heroku` command
 heroku plugins:install herokus-pocus-plugin
 ```
 
-After that, you can run the Herokus Pocus commands.
+After that, you can list the available command by
+```
+heroku help pocus
+```
+
 
 ## Commands
 
