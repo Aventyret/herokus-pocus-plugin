@@ -12,16 +12,16 @@ Make sure that you have installed the [Heroku CLI](https://devcenter.heroku.com/
 heroku plugins:install herokus-pocus-plugin
 ```
 
-## Usage
+## Commands
 
-### mysql command
+### `mysql` 
 
 This command is used to open a mysql command promt session to a Heroku database for given app.
 
 ```
 heroku pocus:mysql --app [your heroku app]
 ```
-### mysqldump command
+### `mysqldump`
 
 This command is used to execute a mysqldump command on a Heroku database for given app.
 
