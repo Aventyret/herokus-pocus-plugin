@@ -1,5 +1,5 @@
 {
-  "name": "herokus-pocus-plugin",
+  "name": "@aventyret/herokus-pocus-plugin",
   "version": "0.2.1",
   "description": "A set usefull Herokus plugin commands that we at Äventyret AB use regularly.",
   "homepage": "https://github.com/Aventyret/herokus-pocus-plugin",
@@ -44,5 +44,16 @@
     "flow-typed": "^2.1.2",
     "jest": "^20.0.4",
     "rimraf": "^2.6.1"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aventyret/herokus-pocus-plugin.git"
+  },
+  "author": "Ivar Bergman",
+  "bugs": {
+    "url": "https://github.com/Aventyret/herokus-pocus-plugin/issues"
   }
 }
