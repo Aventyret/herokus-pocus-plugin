@@ -4,7 +4,7 @@ import fs from 'fs-extra'
 import path from 'path'
 
 export const topic = {
-  name: 'hello',
+  name: 'pocus',
   description: 'says hello (example plugin)'
 }
 
