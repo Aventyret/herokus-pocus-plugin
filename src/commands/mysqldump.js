@@ -5,7 +5,7 @@ import { execSync } from 'child_process'
 export default class MysqlDumpCommand extends Command {
   static topic = 'pocus'
   static command = 'mysqldump'
-  static description = 'mysqldump client connected to a heroku app database.'
+  static description = 'Executes a mysqldump, connected to the Heroku app database.'
   static flags = {
     app: flags.app({required: true})
   }
