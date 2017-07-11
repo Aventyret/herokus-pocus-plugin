@@ -1,14 +1,13 @@
 
 # Herokus Pocus Plugin
 
-This repo contains some usefull Herokus plugin commands that we at Äventyret AB use regularly.
+This repo contains a Heroku plugin with some usefull commands that we at Äventyret AB use regularly.
 
 
 ## Prerequisite
 
 1. Make sure that the [Heroku CLI](https://devcenter.heroku.com/articles/heroku-cli) package is installed.
 2. Login to the Herkou CLI service. 
-3. 
 
 ## Installtion
 
