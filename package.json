@@ -1,6 +1,6 @@
 {
   "name": "herokus-pocus-plugin",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "A set usefull Herokus plugin commands that we at Äventyret AB use regularly.",
   "homepage": "https://github.com/Aventyret/herokus-pocus-plugin",
   "files": [
