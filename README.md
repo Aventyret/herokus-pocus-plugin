@@ -1,7 +1,7 @@
 
 # Herokus Pocus Plugin
 
-This repo contains a Heroku plugin with some usefull commands that we at Äventyret AB use regularly.
+This repo contains a Heroku plugin with some usefull commands that we at [Äventyret AB](https://aventyret.com) use regularly.
 
 
 ## Prerequisite
