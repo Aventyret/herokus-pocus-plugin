@@ -1,13 +1,15 @@
 {
   "name": "herokus-pocus-plugin",
   "version": "0.0.0",
+  "description": "A set usefull Herokus plugin commands that we at Äventyret AB use regularly.",
+  "homepage": "https://github.com/Aventyret/herokus-pocus-plugin",
   "files": [
     "lib"
   ],
   "keywords": [
     "heroku-plugin"
   ],
-  "license": "ISC",
+  "license": "MIT",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib --ignore '*.test.js'",
