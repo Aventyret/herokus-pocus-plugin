@@ -13,7 +13,6 @@ export default class MysqlCommand extends Command {
 
   async run () {
     var app = await this.heroku.get(`/apps/${this.flags.app}`)
-    console.log(app)
     var config = await this.heroku.get(`/apps/${this.flags.app}/config-vars`)
     let cred = credentials(config)
     let cmd = `mysql -A -u ${cred.user} -p${cred.pwd} -h ${cred.host} ${cred.database}`

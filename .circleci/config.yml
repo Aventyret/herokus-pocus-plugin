@@ -3,7 +3,7 @@ version: 2
 jobs:
   build:
     docker:
-      - image: dickeyxxx/cli-engine-docker:v1.3.1
+      - image: node:8.2.1
     working_directory: ~/cli-plugin
     steps:
       - checkout
@@ -12,9 +12,7 @@ jobs:
             - node-modules-{{ checksum "yarn.lock" }}
             - node-modules-
       - run: yarn
-      - run: jest --coverage && bash <(curl -s https://codecov.io/bash)
-      - run: flow check
-      - run: eslint .
+      - run: yarn test -- --coverage && bash <(curl -s https://codecov.io/bash)
       - save_cache:
           key: node-modules-{{ checksum "yarn.lock" }}
           paths:

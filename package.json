@@ -1,59 +1,43 @@
 {
-  "name": "@aventyret/herokus-pocus-plugin",
-  "version": "0.2.4",
-  "description": "A set usefull Herokus plugin commands that we at Äventyret AB use regularly.",
-  "homepage": "https://github.com/Aventyret/herokus-pocus-plugin",
+  "name": "herokus-pocus-plugin",
+  "version": "0.0.0",
   "files": [
     "lib"
   ],
   "keywords": [
     "heroku-plugin"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "main": "lib/index.js",
   "scripts": {
     "build": "babel src -d lib --ignore '*.test.js'",
     "clean": "rimraf lib",
     "prepare": "npm run clean && npm run build",
-    "test": "jest && flow && eslint .",
+    "test": "flow check && eslint . && jest",
     "release": "np"
   },
-  "publishConfig": {
-    "access": "public"
-  },
   "dependencies": {
-    "cli-engine-command": "^5.1.19",
-    "cli-engine-config": "^1.6.3",
-    "cli-engine-heroku": "^1.1.12"
+    "cli-engine-command": "^5.1.7",
+    "cli-engine-config": "^1.3.7",
+    "cli-engine-heroku": "^1.1.1"
   },
   "devDependencies": {
-    "babel-cli": "^6.26.0",
+    "babel-cli": "^6.24.1",
     "babel-eslint": "^7.2.3",
-    "babel-plugin-transform-class-properties": "^6.24.1",
-    "babel-plugin-transform-es2015-modules-commonjs": "^6.26.0",
     "babel-preset-flow": "^6.23.0",
-    "eslint": "^4.5.0",
+    "babel-plugin-transform-class-properties": "^6.24.1",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.24.1",
+    "eslint": "^4.0.0",
     "eslint-config-standard": "^10.2.1",
-    "eslint-plugin-flowtype": "^2.35.1",
+    "eslint-plugin-flowtype": "^2.34.0",
     "eslint-plugin-import": "^2.5.0",
     "eslint-plugin-jest": "^20.0.3",
-    "eslint-plugin-node": "^5.1.1",
+    "eslint-plugin-node": "^5.0.0",
     "eslint-plugin-promise": "^3.5.0",
     "eslint-plugin-standard": "^3.0.1",
     "flow-bin": "^0.48.0",
-    "flow-typed": "^2.1.5",
+    "flow-typed": "^2.1.2",
     "jest": "^20.0.4",
     "rimraf": "^2.6.1"
-  },
-  "directories": {
-    "lib": "lib"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Aventyret/herokus-pocus-plugin.git"
-  },
-  "author": "Ivar Bergman",
-  "bugs": {
-    "url": "https://github.com/Aventyret/herokus-pocus-plugin/issues"
   }
 }
