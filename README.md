@@ -25,6 +25,8 @@ heroku help pocus
 
 ## Commands
 
+The mysql commands use the Herkou app env settings to determine database credentials. The following variables are examined `DATABASE_URL`, `JAWSDB_URL`, `CLEARDB_URL`. 
+
 ### `mysql` 
 
 This command is used to open a mysql command promt session to a Heroku database for given app.
